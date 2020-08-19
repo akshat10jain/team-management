@@ -18,7 +18,6 @@ const UserForm = (props) => {
       <label>Name</label>
       <input
         type="text"
-        id="name"
         placeholder={placeholder}
         value={userName}
         onChange={handelName}
